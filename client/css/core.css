@@ -1,0 +1,46 @@
+body {
+  margin: 8px;
+  background: #303030;
+  color: #eee;
+  font-family: 'Courier New';
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, ul, li, p {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+a {
+  color: #39f;
+}
+a:hover {
+  font-weight: bold;
+}
+
+
+div#container {
+  width: 960px;
+  margin: 128px auto 0;
+}
+
+div#loading {
+  width: 640px;
+  margin: 0 auto;
+  background: #000;
+}
+div#loadingProgress {
+  width: 0%;
+  height: 4px;
+  background: #06d;
+}
+
+div#game {
+  display: none;
+}
+
+canvas#realtime {
+  display: block;
+  background: #202020;
+}
