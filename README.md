@@ -8,3 +8,14 @@ Server side simulates all game logic, and then sends potential world states to c
 
 The **setting** of the game is **Sci-Fi**, with element of **Cyberpunk**.  
 **Genre** is **MMO TDS** - Hackable Massive Multiplayer Online Top-Down Shooter.
+
+State of the project
+=========
+This is very early state of the project, and is sketch of future architecture of the server side and client side.
+
+It uses node.js, mootools, mongodb, socket.io, and some other libraries on server side.
+
+Client side use html5-canvas, socket.io, mootools.
+
+Right now there is world initialisation with clustering and gamepad controls on client side to fly around the world.  
+Development is happening using Google Chrome, so gamepad will work probably only in Chrome as it is very specific API.
